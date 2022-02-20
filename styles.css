@@ -1,0 +1,338 @@
+
+::-webkit-scrollbar{
+  display: none;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  
+}
+
+body {
+  /*background-color: rgb(241, 235, 236);*/
+  /*display: block;*/
+  background-color: grey;
+}
+
+#back {
+  background-image: url(https://images.unsplash.com/flagged/photo-1572392640988-ba48d1a74457?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1964&q=80);
+ /* background-image: url(https://images.unsplash.com/photo-1622547748225-3fc4abd2cca0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80);*/
+  background-size: cover;
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  z-index: -1;
+}
+
+#heading {
+  width: 100% !important;
+  height: 160px;
+  background-color: black;
+  z-index: 3;
+  position: fixed;
+  filter: drop-shadow(0px 7px 30px black);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#name {
+  padding-left: 90px;
+  color: white;
+  z-index: 4;
+  display: flex;
+  margin-left: 30px;
+}
+
+
+
+#paola {
+  font-size: 2.5rem;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+#ferrari {
+  font-size: 1.7rem;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+#headtxt {
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+  margin-right: 30px;
+  font-size: 1.5rem;
+}
+
+#collections{
+  font-size: 1.5rem;
+  
+
+  color: white;
+  cursor: pointer;
+
+}
+
+.dropdown-content{
+ /* background-color: rgba(0,0,0,.3);*/
+  font-weight: 100;
+}
+
+#headtxt div {
+  color: white;
+  cursor: pointer;
+}
+#headtxt div:hover {
+  color: red;
+  
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content div:hover {color: blue !important}
+
+/* Show the dropdown menu on hover */
+.collections:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.collections:hover .collections {color:red;}
+
+#blocks {
+  text-align: center;
+  font-size: 150%;
+  color: white;
+  line-height: 80px;
+
+}
+
+#b0 {
+  padding-top: 100px;
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 400px;
+}
+
+#b01 {
+  padding-top: 100px;
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  ;
+}
+
+#b02 {
+  padding-top: 300px;
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 400px;
+}
+
+
+#b0l {
+ background-color: white;
+ color: black;
+ text-align: center;
+ justify-content: center;
+ line-height: 150px;
+ width: 50%;
+ height: 300px;
+ font-size: 2rem;
+ margin-bottom: 40px;
+  
+}
+
+#b0l:hover{
+background-color: black;
+color: white;
+}
+
+#b0r {
+  height: 400px;
+  width: 400px;
+  padding-bottom: 200px;
+  padding-left: 40%;
+}
+
+#b0a {
+  background-color: white;
+  width: 80%;
+  height: 200px;
+  color: black;
+  
+}
+
+#b0a:hover{
+  background-color: black;
+  color: white;
+  }
+
+#b1 {
+  
+  display: flex;
+  height: 160px;
+  width: 100%;
+  margin-top: 400px;
+  margin-bottom: 0px;
+}
+
+#b1l {
+  
+  background-color: black;
+  width: 100%;
+}
+
+#b1l:hover{
+  background-color: white;
+  color: black;
+}
+
+#b2 {
+  margin-top: 70px;
+  display: flex;
+  height: 160px%;
+  width: 100%;
+  margin-bottom: 50px;
+
+}
+
+#b2r {
+  width: 100%;
+  background-color: black;
+}
+
+#b2r:hover{
+  background-color: white;
+  color: black;
+}
+
+#b3 {
+  margin-top: 100px;
+  display: flex;
+  height: 160px;
+  width: 100%;
+  margin-bottom: 80px;
+}
+
+#b3l {
+  width: 100%;
+  background-color: black;
+  
+}
+
+#b3l:hover{
+  background-color: white;
+  color: black;
+}
+
+#b4 {
+  margin-top: 5%;
+  display: flex;
+  height: 160px;
+  width: 100%;
+  margin-bottom: 80px;
+ 
+}
+
+#b4l {
+  width: 100%;
+  background-color: black;
+  
+}
+
+#b4l:hover{
+  background-color: white;
+  color: black;
+}
+
+
+
+
+#footer {
+  width: 100%;
+  height: 260px;
+  z-index: 3;
+  background-color: black;
+  line-height: 20px;
+  padding-top: 60px;
+  display: flex;
+}
+
+.smalltext{
+ width: 50%;
+ text-align: right;
+}
+
+
+.smalltext{
+  font-size: .5rem;
+}
+
+.smalltextdata{
+  font-size: .8rem;
+  width: 50%;
+  text-align: left;
+  padding-left: 80px;
+}
+
+.images{
+  z-index: 7;
+}
+
+
+
+
+div.scrollmenu {
+  
+  overflow: auto;
+ 
+  white-space: nowrap;
+  height: fit-content;
+  margin-left: 30px;
+  margin-right: 30px;
+
+
+}
+
+div.scrollmenu a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  width: 100%
+  
+ 
+}
+
+
+
+
+
+.images{
+  padding: 30px;
+  height: 500px;
+}
+
+.images:hover{
+  height: 600px
+}
